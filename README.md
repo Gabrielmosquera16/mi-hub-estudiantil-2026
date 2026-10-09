@@ -6,6 +6,11 @@ Mini-sitio individual desarrollado para la **Tarea Práctica #2: Integración HT
 
 **Gabriel Oriel Mosquera Magallón**
 
+## Enlaces de entrega
+
+- **Sitio publicado:** [Mi Hub Estudiantil 2026](https://mihub26-8mj5hxge.manus.space/)
+- **Repositorio público:** [Gabrielmosquera16/mi-hub-estudiantil-2026](https://github.com/Gabrielmosquera16/mi-hub-estudiantil-2026)
+
 ## Estructura
 
 ```text

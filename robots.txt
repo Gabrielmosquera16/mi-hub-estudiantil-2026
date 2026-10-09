@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://mihub26-8mj5hxge.manus.space/sitemap.xml
