@@ -19,6 +19,8 @@ Mini-sitio individual desarrollado para la **Tarea Práctica #2: Integración HT
 ├── recursos.html
 ├── css/
 │   └── estilos.css
+├── media/
+│   └── mi-hub-tecnologico-web.mp4
 └── img/
     └── avatar-gabriel-web.png
 ```
@@ -29,6 +31,7 @@ Mini-sitio individual desarrollado para la **Tarea Práctica #2: Integración HT
 - Hoja de estilos CSS externa con variables, estados hover, Grid/Flexbox y diseño responsive.
 - Perfil académico, intereses, meta del semestre, recursos de aprendizaje y trayectoria de asignaturas.
 - Formulario de muestra, solo maquetado y sin backend.
+- Pieza audiovisual tecnológica integrada en el perfil, con audio y controles nativos.
 
 ## Vista local
 

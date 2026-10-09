@@ -45,7 +45,8 @@ body {
   line-height: 1.6;
 }
 
-img {
+img,
+video {
   display: block;
   max-width: 100%;
 }
@@ -331,6 +332,64 @@ h1 em {
   margin: 0;
 }
 
+.tech-film {
+  padding-block: clamp(2.5rem, 6vw, 5rem);
+  background: linear-gradient(135deg, #071a28 0%, #102b3f 57%, #0b5255 150%);
+  color: #f9f8f3;
+}
+
+.tech-film__grid {
+  display: grid;
+  grid-template-columns: minmax(14rem, 0.7fr) minmax(0, 1.15fr);
+  gap: clamp(2rem, 6vw, 5rem);
+  align-items: center;
+}
+
+.tech-film .section-label,
+.tech-film .overline {
+  color: #9ee0dc;
+}
+
+.tech-film .section-label span {
+  color: #f5c77e;
+}
+
+.tech-film__copy h2 {
+  margin-top: 0.8rem;
+}
+
+.tech-film__copy > p:last-child {
+  max-width: 31rem;
+  margin: 1.25rem 0 0;
+  color: #c0d3d7;
+}
+
+.tech-film__player {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  background: #07131e;
+  border: 1px solid rgb(158 224 220 / 42%);
+  border-radius: 1.2rem 1.2rem 1.2rem 0;
+  box-shadow: 0 22px 55px rgb(0 0 0 / 25%);
+}
+
+.tech-film__player video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #07131e;
+}
+
+.tech-film__player figcaption {
+  padding: 0.75rem 1rem;
+  color: #a9c5c7;
+  border-top: 1px solid rgb(158 224 220 / 20%);
+  font-size: 0.73rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .profile-layout {
   display: grid;
   grid-template-columns: minmax(16rem, 0.72fr) minmax(0, 1fr);
@@ -394,7 +453,8 @@ h1 em {
 
 .profile-copy h2,
 .section-heading h2,
-.contact-copy h2 {
+.contact-copy h2,
+.tech-film__copy h2 {
   margin: 0;
   font-size: clamp(2.1rem, 4.8vw, 4.15rem);
   font-weight: 730;
@@ -968,6 +1028,7 @@ tbody tr:hover {
   }
 
   .profile-layout,
+  .tech-film__grid,
   .section-heading--split,
   .goal-card__content,
   .contact-layout {
